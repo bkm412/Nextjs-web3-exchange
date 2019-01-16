@@ -63,6 +63,7 @@
 기본 Next.js 설정에 의해 pages 폴더 안의 파일을 타겟으로 라우팅해주기 때문에 pages 폴더 내에 라우팅 할 Url과 같은 이름으로 js파일을 만들면 됩니다.
 
 만악 라우팅을 커스터마이징 하고싶으면 아래 링크를 참고하세요.
+
 https://github.com/zeit/next.js/wiki/Centralizing-Routing
 
 ### CSS styling
