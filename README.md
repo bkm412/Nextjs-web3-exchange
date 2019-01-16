@@ -3,6 +3,8 @@
 ### About
 스마트컨트랙트로 구동되는 거래소 Front-end Part 입니다.
 
+개인 기록용으로 핵심코드는 모두 빠져있으니, 참고해주세요.
+
 - [Structure](#structure)
 - [Router](#router)
 - [CSS styling](#css-styling)
