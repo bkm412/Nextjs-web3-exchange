@@ -1,5 +1,13 @@
 # Nextjs-web3-exchange
 
+### About
+스마트컨트랙트로 구동되는 거래소 Front-end Part 입니다.
+
+- [Structure](#structure)
+- [Router](#router)
+- [CSS styling](#css-styling)
+- [Global CSS](#global-css)
+- [Mobx](#mobx)
 
 ### Structure
 <details>
@@ -51,8 +59,14 @@
                     
 </details>
 
+### Router
+기본 Next.js 설정에 의해 pages 폴더 안의 파일을 타겟으로 라우팅해주기 때문에 pages 폴더 내에 라우팅 할 Url과 같은 이름으로 js파일을 만들면 됩니다.
+
+만악 라우팅을 커스터마이징 하고싶으면 아래 링크를 참고하세요.
+https://github.com/zeit/next.js/wiki/Centralizing-Routing
+
 ### CSS styling
-styled-component를 사용했으며, 각각의 component 내에 선언된 styled 에서 sass문법을 사용해서 styling이 가능하다.
+styled-component를 사용했으며, 각각의 component 내에 선언된 styled 에서 sass문법을 사용해서 styling이 가능합니다.
 
 ```
 const ContentsWrapper = styled.section`
@@ -63,7 +77,7 @@ const ContentsWrapper = styled.section`
 
 
 ### Global CSS
-Global CSS는 globalStyle.js 내의 createGlobalStyle에서 설정이 가능하다.
+Global CSS는 globalStyle.js 내의 createGlobalStyle에서 설정이 가능합니다.
 ```
     ├── component                      
         ├── global    
@@ -78,4 +92,11 @@ Global CSS는 globalStyle.js 내의 createGlobalStyle에서 설정이 가능하�
     }
     `
 ```
+
+### Mobx
+모든 부분에서 언어의 변경을 감지해야 하기 때문에, Mobx와 Redux의 사용을 고민했습니다.
+
+그러다 Mobx가 훨씬 간단하고 가독성이 좋아서 Mobx를 사용하게 되었습니다.
+
+언어 정보는 Language Store, 거래소에서 저장해야 할 정보를 Core store에 담아 사용하고 있습니다.
 
