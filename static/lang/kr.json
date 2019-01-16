@@ -1,0 +1,11 @@
+{
+  "Header" : {
+    "title" : "이 영역은 헤더입니다.",
+    "exchange" : "거래소",
+    "wallet" : "지갑",
+    "transaction" : "거래기록"
+  },
+  "Footer" : {
+    "title" : "이 영역은 푸터입니다."
+  }
+}

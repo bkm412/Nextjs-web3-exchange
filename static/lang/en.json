@@ -1,0 +1,11 @@
+{
+  "Header" : {
+    "title" : "It is Header",
+    "exchange" : "Exchange",
+    "wallet" : "Wallet",
+    "transaction" : "transaction"
+  },
+  "Footer" : {
+    "title" : "It is Footer"
+  }
+}
