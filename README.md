@@ -45,7 +45,7 @@
         ├── static                          # static files (js, json, image ...)
             ├── abi                           # contract abi files  
             ├── images                        # image files
-            ├── js                            # contract abi files  
+            ├── js                            # js files  
                 ├── config.js                   # my config
                 └── helper.js                   # helper functions
             ├── json                          # other json files
